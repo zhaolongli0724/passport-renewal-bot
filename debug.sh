@@ -1,0 +1,1 @@
+RUBYOPT="-W0" rdebug-ide --host 0.0.0.0 --port 1234 --dispatcher-port 1234 -- bin/start

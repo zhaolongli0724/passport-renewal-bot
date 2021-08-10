@@ -1,0 +1,43 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    childprocess (3.0.0)
+    debase (0.2.4.1)
+      debase-ruby_core_source (>= 0.10.2)
+    debase-ruby_core_source (0.10.12)
+    dotenv (2.7.6)
+    mini_portile2 (2.6.1)
+    nokogiri (1.12.2)
+      mini_portile2 (~> 2.6.1)
+      racc (~> 1.4)
+    racc (1.5.2)
+    rake (13.0.6)
+    regexp_parser (2.1.1)
+    ruby-debug-ide (0.7.2)
+      rake (>= 0.8.1)
+    rubyzip (2.3.2)
+    selenium-webdriver (3.142.7)
+      childprocess (>= 0.5, < 4.0)
+      rubyzip (>= 1.2.2)
+    slack-notifier (2.4.0)
+    watir (6.19.1)
+      regexp_parser (>= 1.2, < 3)
+      selenium-webdriver (>= 3.142.7)
+    webdrivers (4.6.0)
+      nokogiri (~> 1.6)
+      rubyzip (>= 1.3.0)
+      selenium-webdriver (>= 3.0, < 4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  debase (~> 0.2.4)
+  dotenv
+  ruby-debug-ide (~> 0.7.0)
+  slack-notifier
+  watir
+  webdrivers
+
+BUNDLED WITH
+   2.1.4
