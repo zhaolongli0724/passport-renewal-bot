@@ -1,12 +1,25 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (6.1.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+      zeitwerk (~> 2.3)
     childprocess (3.0.0)
+    clockwork (2.0.4)
+      activesupport
+      tzinfo
+    concurrent-ruby (1.1.9)
     debase (0.2.4.1)
       debase-ruby_core_source (>= 0.10.2)
     debase-ruby_core_source (0.10.12)
     dotenv (2.7.6)
+    i18n (1.8.10)
+      concurrent-ruby (~> 1.0)
     mini_portile2 (2.6.1)
+    minitest (5.14.4)
     nokogiri (1.12.2)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
@@ -20,6 +33,8 @@ GEM
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
     slack-notifier (2.4.0)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
     watir (6.19.1)
       regexp_parser (>= 1.2, < 3)
       selenium-webdriver (>= 3.142.7)
@@ -27,11 +42,14 @@ GEM
       nokogiri (~> 1.6)
       rubyzip (>= 1.3.0)
       selenium-webdriver (>= 3.0, < 4.0)
+    zeitwerk (2.4.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
+  clockwork
   debase (~> 0.2.4)
   dotenv
   ruby-debug-ide (~> 0.7.0)
