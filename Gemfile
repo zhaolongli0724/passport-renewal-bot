@@ -9,6 +9,9 @@ gem 'dotenv'
 gem 'watir'
 gem 'webdrivers'
 
+gem 'clockwork'
+gem 'activesupport'
+
 gem 'debase',         '~> 0.2.4'
 gem 'ruby-debug-ide', '~> 0.7.0'
 

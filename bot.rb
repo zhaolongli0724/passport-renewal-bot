@@ -10,7 +10,7 @@ class Bot
         defaults channel: '#secrete', username: "Devil's Notifier"
       end
 
-      notifier.ping("@here #{message}")
+      notifier.ping(message)
     end
 
     def site_login
@@ -49,7 +49,7 @@ class Bot
       end
 
       if available > 0
-        notify "Found #{available} slot!!"
+        notify "<!here> Found #{available} slots!!"
       else
         notify 'No slot found'
       end
